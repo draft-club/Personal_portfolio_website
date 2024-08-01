@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
+import entity from "../../Assets/Projects/entity_resolution.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
@@ -27,7 +28,7 @@ function Projects() {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                   <Col md={4} className="project-card">
                       <ProjectCard
-                          imgPath={emotion}
+                          imgPath={entity}
                           isBlog={false}
                           title="Entity Resolution at Scale with Siemese Networks "
                           description="This project implements a Siamese Neural Network (SNN) for entity resolution, specifically designed to handle complex data matching scenarios. The project is structured to prepare, map, normalize, and process datasets, followed by training a Siamese Neural Network model using TensorFlow."
