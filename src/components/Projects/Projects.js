@@ -24,7 +24,17 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                  <Col md={4} className="project-card">
+                      <ProjectCard
+                          imgPath={emotion}
+                          isBlog={false}
+                          title="Entity Resolution at Scale with Siemese Networks "
+                          description="This project implements a Siamese Neural Network (SNN) for entity resolution, specifically designed to handle complex data matching scenarios. The project is structured to prepare, map, normalize, and process datasets, followed by training a Siamese Neural Network model using TensorFlow."
+                          ghLink="https://github.com/draft-club/Entity-Resolution-with-SNNs"
+                      // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+                      />
+                  </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -85,8 +95,6 @@ function Projects() {
                       />
           </Col>
 
-
-
          
 
           <Col md={4} className="project-card">
@@ -99,7 +107,9 @@ function Projects() {
                           ghLink="https://github.com/draft-club/Face_Recognition_with_Emotions_CNNs"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+                  </Col>
+
+               
         </Row>
       </Container>
     </Container>

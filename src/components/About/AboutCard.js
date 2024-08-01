@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, 
             Amine Here . A passionate <span className="purple"> Data Scientist .</span>
             <br />
-            Today , consulting as a Sr. Data Scientist and Team Lead at <span className="purple"> the Tax Department , Ministry of Economy and Finance </span> 
+            Today , consulting as a Lead Data Scientist and Team Lead at <span className="purple"> the Tax Department , Ministry of Economy and Finance </span> 
             ,Morocco.
             <br />
                       I hold a Master's degree in Econometrics and Applied Statistics,
@@ -26,7 +26,7 @@ function AboutCard() {
               <ImPointRight /> Working out
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling and Exploring New Cultures
+              <ImPointRight /> Exploring New Cultures
             </li>
             <li className="about-activity">
               <ImPointRight /> Reading

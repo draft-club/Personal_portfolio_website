@@ -30,7 +30,7 @@ function Home2() {
               <br />
               I enjoy building and delivering innovative and Data-Driven solutions leveraging
               <i>
-                <b className="purple"> Data Science , Machine Learning and Big Data </b>
+                <b className="purple"> Data Science , Machine Learning and MLops </b>
                 Technologies and {" "}
                 <b className="purple">
                   Frameworks .
@@ -39,7 +39,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also indulge in my passion for 
-               <b className="purple"> RPA Developement </b> ,  Process Automation and 
+               <b className="purple"> Process Automation </b> ,  Web Scraping and 
               <i>
                 <b className="purple">
                   {" "}
@@ -67,7 +67,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/hicker-coder"
+                  href="https://github.com/draft-club"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
