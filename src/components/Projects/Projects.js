@@ -4,13 +4,14 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import entity from "../../Assets/Projects/entity_resolution.png";
+import entity2 from "../../Assets/Projects/entity2.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import youtube from "../../Assets/Projects/youtube_scrapper.jpg";
 import finance from "../../Assets/Projects/finance.png";
+import arabicocr from "../../Assets/Projects/arabicocr.webp";
 
 
 
@@ -26,28 +27,28 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                  <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
                       <ProjectCard
-                          imgPath={entity}
+                          imgPath={arabicocr}
+                          isBlog={false}
+                          title="Advanced Arabic OCR with Layout Detection"
+                          description="Leveraging cutting-edge technologies like Table Transformers, Deepdoctation, Tesseract, PaddleOCR, and Field Extraction by Open-source LLMs to accurately extract Arabic text from documents with complex layouts. It focuses on segmenting and recognizing various document components, such as tables
+                                      and structured fields, ensuring precise text extraction and data organization for enhanced document processing."
+                          ghLink="https://github.com/draft-club/RCAR_Streamlit_PoC.git"
+                      // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+                      />
+          </Col>
+          <Col md={4} className="project-card">
+                      <ProjectCard
+                          imgPath={entity2}
                           isBlog={false}
                           title="Entity Resolution at Scale with Siemese Networks "
                           description="This project implements a Siamese Neural Network (SNN) for entity resolution, specifically designed to handle complex data matching scenarios. The project is structured to prepare, map, normalize, and process datasets, followed by training a Siamese Neural Network model using TensorFlow."
                           ghLink="https://github.com/draft-club/Entity-Resolution-with-SNNs"
                       // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
                       />
-                  </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Chat with your PDFs"
-                          description="Chat with Your PDFs is a Streamlit-based web application that allows users to upload PDF documents, process their text, and interact with the content using an AI chatbot. The application utilizes FAISS for efficient similarity search, 
-                                       OpenAI embeddings for semantic understanding, and Streamlit for the front-end interface."
-              ghLink="https://github.com/hicker-coder/Chat_with_Multiple_PDFs_V2"
-              demoLink="https://mef-chat-with-pdfs.streamlit.app/"
-            />
-                  </Col>
-
+          </Col>
+          
            <Col md={4} className="project-card">
                       <ProjectCard
                           imgPath={youtube}
@@ -107,6 +108,18 @@ function Projects() {
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
                           ghLink="https://github.com/draft-club/Face_Recognition_with_Emotions_CNNs"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+                  </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Chat with your PDFs"
+                          description="Chat with Your PDFs is a Streamlit-based web application that allows users to upload PDF documents, process their text, and interact with the content using an AI chatbot. The application utilizes FAISS for efficient similarity search, 
+                                       OpenAI embeddings for semantic understanding, and Streamlit for the front-end interface."
+              ghLink="https://github.com/hicker-coder/Chat_with_Multiple_PDFs_V2"
+              demoLink="https://mef-chat-with-pdfs.streamlit.app/"
             />
                   </Col>
 
